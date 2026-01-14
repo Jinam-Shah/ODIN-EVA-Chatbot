@@ -121,4 +121,3 @@ The assistant will listen continuously in a loop until you close the program.
 ## Disclaimer
 This project is intended for personal and educational use.
 Be careful when granting system‑level access to scripts that can open, close, and control applications on your machine.
-pip install -r requirements.txt
