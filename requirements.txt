@@ -1,0 +1,8 @@
+SpeechRecognition
+pyttsx3
+pygame
+openai
+pygetwindow
+psutil
+pyautogui
+pypiwin32
