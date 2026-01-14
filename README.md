@@ -107,7 +107,7 @@ Activate your virtual environment (if not already active), then:
 
 ```bash
 python main.py
-You should hear an introduction from ODIN.
+# You should hear an introduction from ODIN.
 Try commands such as:
 “Activate EVA”
 “Open YouTube”
