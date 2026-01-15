@@ -1,33 +1,41 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-ODIN EVA Chatbot - SETUP GUIDE
-1. Copy this → config.py
-2. Fill API key + YOUR paths
-3. Run main.py
+ODIN EVA Chatbot - Configuration Template
+SETUP: Copy this file to 'config.py' and fill your values
 """
 
-# OpenAI API (platform.openai.com)
-OPENAI_API_KEY = "sk-paste-your-key-here"
+# OpenAI API Key (get from platform.openai.com)
+OPENAI_API_KEY = "sk-paste-your-api-key-here"
 
-# Folders (update YOUR paths)
+# Folder Paths (update to YOUR Windows paths)
 FOLDERS = {
-    "Downloads": r"C:\Users\YourName\Downloads",
-    "Documents": r"C:\Users\YourName\Documents", 
-    "Pictures": r"C:\Users\YourName\Pictures",
-    "Videos": r"C:\Users\YourName\Videos"
+    "Downloads": r"C:\Users\YourUsername\Downloads",
+    "Documents": r"C:\Users\YourUsername\Documents",
+    "Pictures": r"C:\Users\YourUsername\Pictures",
+    "Videos": r"C:\Users\YourUsername\Videos"
 }
 
-# Apps (update YOUR .lnk/.exe paths)
+# Desktop Apps (update to YOUR .lnk or .exe paths)
 APPS = {
     "Notepad": r"C:\Windows\System32\notepad.exe",
-    "Valorant": r"C:\Users\Public\Desktop\VALORANT.lnk",
-    # Add more...
+    # Add your apps below:
+    # "Valorant": r"C:\Users\Public\Desktop\VALORANT.lnk",
 }
 
-# Websites (URLs - rarely change)
+# Websites (URLs - customize as needed)
 WEBSITES = {
     "youtube": "https://www.youtube.com/",
     "google": "https://www.google.com/",
     "spotify": "https://open.spotify.com/",
-    # Add from your list...
+    "gpt": "https://chat.openai.com/",
+    "amazon": "https://www.amazon.in/",
+    "geeksforgeeks": "https://www.geeksforgeeks.org/",
+    "whatsapp": "https://web.whatsapp.com/",
+    "facebook": "https://www.facebook.com/",
+    "netflix": "https://www.netflix.com/",
+    "reddit": "https://www.reddit.com/",
+    "instagram": "https://www.instagram.com/",
+    "pinterest": "https://in.pinterest.com/",
+    "discord": "https://discord.com/"
 }
