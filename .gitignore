@@ -7,3 +7,14 @@ venv/
 # Python cache
 __pycache__/
 *.pyc
+
+# Config (API keys private)
+config.py
+
+# Generated files
+Openai/
+RR/
+outputs/
+
+# IDE
+.vscode/
